@@ -3,283 +3,260 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Harshavardhan Nandigama — AWS DevOps Engineer </title>
+  <title>Harshavardhan Nandigama — AWS DevOps Engineer</title>
   <meta name="description" content="AWS DevOps Engineer skilled in Linux, AWS, Docker, Kubernetes, Terraform, CI/CD, Monitoring." />
-
-  <!-- Favicon -->
+  <meta name="keywords" content="AWS DevOps, Linux, Docker, Kubernetes, Terraform, CI/CD, Monitoring, Cloud Infrastructure" />
+  <!-- Favicon and Apple Touch Icon -->
   <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
-
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
   <!-- Open Graph (LinkedIn, WhatsApp, Facebook) -->
-  <meta property="og:title" content="Harshavardhan Nandigama — AWS DevOps Engineer " />
+  <meta property="og:title" content="Harshavardhan Nandigama — AWS DevOps Engineer" />
   <meta property="og:description" content="AWS DevOps Engineer skilled in Linux, AWS, Docker, Kubernetes, Terraform, CI/CD, Monitoring." />
   <meta property="og:image" content="assets/harsha.jpg" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://your-portfolio-domain.com" />
-
+  <meta property="og:url" content="https://harshavardhan-nandigama.github.io/harsha-portfolio/" />
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="AWS DevOps Engineer" />
   <meta name="twitter:description" content="AWS DevOps Engineer skilled in Linux, AWS, Docker, Kubernetes, Terraform, CI/CD, Monitoring." />
   <meta name="twitter:image" content="assets/harsha.jpg" />
-
   <!-- Theme Color -->
   <meta name="theme-color" content="#7c3aed" />
-
   <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Space+Grotesk:wght@400;600&display=swap" rel="stylesheet">
-
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Space+Grotesk:wght@400;600&display=swap" rel="stylesheet" />
   <!-- CSS -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <a href="#maincontent" class="skip-link" style="position:absolute;top:-40px;left:0;background:#7c3aed;color:#fff;padding:8px;z-index:100;transition:top 0.3s;">Skip to main content</a>
   <div class="wrap">
-
     <!-- NAV -->
-    <div class="nav">
+    <div class="nav" role="navigation" aria-label="Primary navigation">
       <div class="nav-inner">
         <div class="brand">
-          <div class="logo">HN</div>
+          <div class="logo" aria-hidden="true">HN</div>
           <div>
             <div class="name">Harshavardhan Nandigama</div>
             <div class="muted" style="font-size:12px">AWS DevOps Engineer</div>
           </div>
         </div>
         <nav>
-          <a href="#about">About</a>
-          <a href="#skills">Skills</a>
-          <a href="#projects">Projects</a>
-          <a href="#contact">Contact</a>
+          <a href="#about" aria-label="About section">About</a>
+          <a href="#skills" aria-label="Skills section">Skills</a>
+          <a href="#projects" aria-label="Projects section">Projects</a>
+          <a href="#contact" aria-label="Contact section">Contact</a>
         </nav>
       </div>
     </div>
-
     <!-- HERO -->
-    <div class="hero">
-      <div class="card reveal" id="hero-left">
-        <div class="eyebrow">Open to: Remote · Contract · Full-time</div>
-        <h1>Harshavardhan Nandigama</h1>
-        <p class="lead">AWS DevOps Engineer | Linux, AWS, Terraform, Docker, Kubernetes. I build reliable infra and production CI/CD and Monitoring.</p>
-
-    <div class="ctas">
-          <a class="btn btn-primary" href="assets/Harshavardhan.N_AWS_DevOps.pdf" download>
-            ⬇ Download Resume
-          </a>
-          <button id="viewResumeBtn" class="btn btn-ghost">👁 View Resume</button>
-          <a class="btn btn-ghost" href="#projects">View Projects</a>
-        </div>
-
-        <div class="meta-row">
-          <div class="badge" id="lastUpdated">Last updated: —</div>
-          <div class="muted">Bengaluru • Available immediately</div>
-        </div>
-      </div>
-
-      <aside class="card profile reveal" id="hero-right">
-        <img src="assets/harsha.jpg" alt="harsha.jpg" class="avatar">
-        <div class="role">AWS DevOps Engineer</div>
-        <div class="badges" style="margin-top:8px">
-          <div class="chip">AWS</div>
-          <div class="chip">Linux</div>
-          <div class="chip">Docker</div>
-          <div class="chip">Terraform</div>
-          <div class="chip">Kubernetes</div>
-          <div class="chip">CI/CD</div>
-          <div class="chip">Monitoring</div>
-        </div>
-
-        <div style="margin-top:12px;display:flex;gap:8px">
-          <a class="btn btn-primary" href="mailto:harshavardhan.gama@gmail.com">Email</a>
-          <a class="btn btn-ghost" href="https://github.com/harshavardhan-nandigama" target="_blank" rel="noopener">GitHub</a>
-        </div>
-
-        <div style="margin-top:12px;text-align:center;color:var(--muted);font-size:13px">
-          <div><strong>Location</strong></div>
-          <div class="muted">Bengaluru, India</div>
-        </div>
-      </aside>
-    </div>
-
-    <!-- ABOUT -->
-    <section id="about" class="reveal">
-      <div class="grid">
-        <div class="card">
-          <h2>About </h2>
-          <p class="muted" style="margin-top:10px">
-            DevOps enthusiast with hands-on experience in AWS, Linux, Terraform, Docker and Kubernetes.
-            Delivered production-grade automation for availability, observability and CI/CD. Focused on
-            reliable infrastructure, repeatable deployments and early testing.
-          </p>
-        </div>
-
-        <div class="card">
-          <h2>Highlights</h2>
-          <ul style="margin-top:10px;line-height:1.6;color:var(--muted)">
-            <li>Automated infra with Terraform & Ansible across multi-environment deployments.</li>
-            <li>Containerized microservices (Docker) and deployed to EKS; improved deployment efficiency by ~50%.</li>
-            <li>Implemented CI pipelines integrated with SonarQube, Nexus and automated testing.</li>
-            <li>Monitoring & logging with Prometheus, Grafana and ELK for faster incident detection.</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <!-- SKILLS -->
-<section id="skills" class="reveal">
-  <h2 style="text-align:center">Skills</h2>
-  <div class="grid" style="margin-top:14px">
-
-    <div class="card">
-      <h3>Cloud & Infrastructure</h3>
-      <div style="margin-top:12px">
-        <div class="muted"><strong>AWS</strong> (EC2, S3, IAM, VPC, Route 53, RDS, DynamoDB, EKS, ECS, Lambda, CloudFront, CloudWatch)</div>
-        <div class="meter" style="margin-top:8px"><i style="width:78%"></i></div>
-      </div>
-      <div style="margin-top:12px">
-        <div class="muted"><strong>Operating Systems & Scripting</strong> (Linux, Bash, Python)</div>
-        <div class="meter" style="margin-top:8px"><i style="width:72%"></i></div>
-      </div>
-    </div>
-
-    <div class="card">
-      <h3>DevOps & Monitoring</h3>
-      <div style="margin-top:12px">
-        <div class="muted"><strong>DevOps Tools & CI/CD</strong> (Docker, Kubernetes, Helm, Argo CD, Terraform, Ansible, Jenkins, Nexus, SonarQube, Veracode)</div>
-        <div class="meter" style="margin-top:8px"><i style="width:82%"></i></div>
-      </div>
-      <div style="margin-top:12px">
-        <div class="muted"><strong>Monitoring & Collaboration</strong> (Prometheus, Grafana, ELK Stack, Git, Jira, ServiceNow)</div>
-        <div class="meter" style="margin-top:8px"><i style="width:74%"></i></div>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-
-    <!-- PROJECTS -->
-    <section id="projects" class="reveal">
-      <h2 style="text-align:center">Projects</h2>
-
-      <div class="projects-grid" style="margin-top:16px">
-        <article class="project">
-          <h3>Cloud-Native E-Commerce Platform</h3>
-          <p class="muted">Built a scalable, microservices-based e-commerce platform on AWS with Docker, Kubernetes, and Helm. Automated deployments with Terraform & Ansible, implemented CI/CD (Jenkins, SonarQube, Nexus), and centralized monitoring (Prometheus, Grafana, ELK) to improve uptime and reduce incident resolution.</p>
-          <div style="margin-top:10px">
-            <span class="tag">Terraform</span><span class="tag">AWS</span><span class="tag">CI/CD</span>
+    <main id="maincontent" tabindex="-1">
+      <div class="hero">
+        <div class="card reveal" id="hero-left">
+          <div class="eyebrow">Open to: Remote · Contract · Full-time</div>
+          <h1>Harshavardhan Nandigama</h1>
+          <p class="lead">AWS DevOps Engineer | Linux, AWS, Terraform, Docker, Kubernetes. I build reliable infrastructure, production CI/CD pipelines and monitoring solutions.</p>
+          <p style="font-style: italic; color: var(--muted); margin-bottom: 16px;">Driven to automate, optimize, and ensure reliability at scale.</p>
+          <div class="ctas">
+            <a class="btn btn-primary" href="assets/Harshavardhan.N_AWS_DevOps.pdf" download>
+              ⬇ Download Resume
+            </a>
+            <button id="viewResumeBtn" class="btn btn-ghost" aria-haspopup="dialog" aria-controls="resumeModal" aria-expanded="false">👁 View Resume</button>
+            <a class="btn btn-ghost" href="#projects">View Projects</a>
           </div>
-          <div style="margin-top:12px"><a href="https://github.com/harshavardhan-nandigama" target="_blank" rel="noopener" class="btn btn-ghost">View on GitHub</a></div>
-        </article>
-
-        <article class="project">
-          <h3>Expense Tracking Application</h3>
-          <p class="muted">Deployed a 3-tier expense tracker on AWS EC2 (Nginx, Node.js, MySQL), automated provisioning with Bash/systemd, and implemented CI/CD with Git for faster, consistent, and resilient deployments.</p>
-          <div style="margin-top:10px">
-            <span class="tag">Git</span><span class="tag">aws</span><span class="tag">CI&CD</span>
+          <div class="meta-row">
+            <div class="badge" id="lastUpdated">Last updated: —</div>
+            <div class="muted">Bengaluru • Available immediately</div>
           </div>
-          <div style="margin-top:12px"><a href="https://github.com/harshavardhan-nandigama" target="_blank" rel="noopener" class="btn btn-ghost">View on GitHub</a></div>
-        </article>
-      </div>
-    </section>
-
-   <!-- EXPERIENCE & Certification -->
-<section id="experience" class="reveal">
-  <h2 style="text-align:center">Experience & Certification</h2>
-  <div class="grid" style="margin-top:12px">
-
-    <!-- Experience Card -->
-    <div class="card">
-      <h3>Experience</h3>
-      <div style="margin-top:8px;color:var(--muted)">
-        <div style="margin-bottom:8px">
-          <strong>Premier Energies</strong> — Audit Engineer (GET)  
-          Led audits across 35+ production stages.
         </div>
-        <div style="margin-bottom:8px">
-          <strong>Goldstone Infratech pvt</strong> — IPQC Intern  
-          Reduced defects by 10% through process checks.
-        </div>
-      </div>
-    </div>
-
-    <!-- Certification Card -->
-    <div class="card">
-      <h3>Certifications</h3>
-      <div style="margin-top:8px;color:var(--muted)">
-        <div style="margin-bottom:8px">
-          <strong>Cloud Computing</strong> — Besant Technologies
-        </div>
-        <div style="margin-bottom:8px">
-          <strong>DevOps</strong> — JoinDevOps
-        </div>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-    <!-- HIDDEN AI/ML SECTION (future-ready) -->
-    <!-- This section is hidden by default. To enable it remove the style="display:none" or change to visible -->
-    <section id="ai-ml" class="reveal" style="display:none">
-      <h2 style="text-align:center">AI/ML Projects (future)</h2>
-      <div class="projects-grid" style="margin-top:16px">
-        <article class="project">
-          <h3>ML Pipeline — Placeholder</h3>
-          <p class="muted">Template for future ML projects (SageMaker, Kubeflow, deployment & monitoring).</p>
-          <div style="margin-top:10px">
-            <span class="tag">SageMaker</span><span class="tag">Kubeflow</span><span class="tag">MLOps</span>
+        <aside class="card profile reveal" id="hero-right" aria-label="Profile summary">
+          <img src="assets/harsha.jpg" alt="Photo of Harshavardhan Nandigama" class="avatar" />
+          <div class="role">AWS DevOps Engineer</div>
+          <div class="badges" style="margin-top:8px">
+            <div class="chip" aria-label="Skill: AWS">AWS</div>
+            <div class="chip" aria-label="Skill: Linux">Linux</div>
+            <div class="chip" aria-label="Skill: Docker">Docker</div>
+            <div class="chip" aria-label="Skill: Terraform">Terraform</div>
+            <div class="chip" aria-label="Skill: Kubernetes">Kubernetes</div>
+            <div class="chip" aria-label="Skill: CI/CD">CI/CD</div>
+            <div class="chip" aria-label="Skill: Monitoring">Monitoring</div>
           </div>
-        </article>
+          <div style="margin-top:12px;display:flex;gap:8px;flex-wrap: wrap;">
+            <a class="btn btn-primary" href="mailto:harshavardhan.gama@gmail.com">Email</a>
+            <a class="btn btn-ghost" href="https://github.com/harshavardhan-nandigama" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a class="btn btn-ghost" href="https://www.linkedin.com/in/harshavardhan-nandigama" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          </div>
+          <div style="margin-top:12px;text-align:center;color:var(--muted);font-size:13px">
+            <div><strong>Location</strong></div>
+            <div class="muted">Bengaluru, India</div>
+          </div>
+        </aside>
       </div>
-    </section>
-
-    <!-- CONTACT -->
-    <section id="contact" class="reveal">
-      <h2 style="text-align:center">Contact</h2>
-      <div class="contact-grid" style="margin-top:12px">
-        <div class="card contact-card">
-          <h3>Get in touch</h3>
-          <p class="muted">I respond quickly to serious opportunities — email is preferred.</p>
-          <p style="margin-top:10px"><strong>Email</strong><br><a href="mailto:harshavardhan.gama@gmail.com">harshavardhan.gama@gmail.com</a></p>
-          <p style="margin-top:6px"><strong>LinkedIn</strong><br><a href="https://www.linkedin.com/in/harshavardhan-nandigama" target="_blank">linkedin.com/in/harshavardhan-nandigama</a></p>
-          <p style="margin-top:6px"><strong>GitHub</strong><br><a href="https://github.com/harshavardhan-nandigama" target="_blank">github.com/harshavardhan-nandigama</a></p>
+      <!-- ABOUT -->
+      <section id="about" class="reveal">
+        <div class="grid">
+          <div class="card">
+            <h2>About</h2>
+            <p class="muted" style="margin-top:10px">
+              DevOps enthusiast with hands-on experience in AWS, Linux, Terraform, Docker, and Kubernetes.
+              Delivered production-grade automation for availability, observability, and CI/CD. Focused on reliable infrastructure, repeatable deployments, and early testing.
+            </p>
+          </div>
+          <div class="card">
+            <h2>Highlights</h2>
+            <ul style="margin-top:10px;line-height:1.6;color:var(--muted)">
+              <li>Automated infra with Terraform &amp; Ansible across multi-environment deployments.</li>
+              <li>Containerized microservices (Docker) and deployed to EKS; improved deployment efficiency by ~50%.</li>
+              <li>Implemented CI pipelines integrated with SonarQube, Nexus, and automated testing.</li>
+              <li>Monitoring & logging with Prometheus, Grafana, and ELK for faster incident detection.</li>
+            </ul>
+          </div>
         </div>
-
-        <div class="card contact-card">
-          <h3>Quick Apply</h3>
-          <p class="muted">Role: DevOps / Linux Engineer<br>Location: Open to Remote / India<br>Notice: Immediate</p>
+      </section>
+      <!-- SKILLS -->
+      <section id="skills" class="reveal">
+        <h2 style="text-align:center">Skills</h2>
+        <div class="grid" style="margin-top:14px">
+          <div class="card">
+            <h3>Cloud & Infrastructure</h3>
+            <div style="margin-top:12px">
+              <div class="muted"><strong>AWS</strong> (EC2, S3, IAM, VPC, Route 53, RDS, DynamoDB, EKS, ECS, Lambda, CloudFront, CloudWatch)</div>
+              <div class="meter" style="margin-top:8px" aria-label="AWS skills proficiency"><i style="width:78%"></i></div>
+            </div>
+            <div style="margin-top:12px">
+              <div class="muted"><strong>Operating Systems &amp; Scripting</strong> (Linux, Bash, Python)</div>
+              <div class="meter" style="margin-top:8px" aria-label="Operating Systems and scripting skills proficiency"><i style="width:72%"></i></div>
+            </div>
+          </div>
+          <div class="card">
+            <h3>DevOps & Monitoring</h3>
+            <div style="margin-top:12px">
+              <div class="muted"><strong>DevOps Tools &amp; CI/CD</strong> (Docker, Kubernetes, Helm, Argo CD, Terraform, Ansible, Jenkins, Nexus, SonarQube, Veracode)</div>
+              <div class="meter" style="margin-top:8px" aria-label="DevOps tools skills proficiency"><i style="width:82%"></i></div>
+            </div>
+            <div style="margin-top:12px">
+              <div class="muted"><strong>Monitoring &amp; Collaboration</strong> (Prometheus, Grafana, ELK Stack, Git, Jira, ServiceNow)</div>
+              <div class="meter" style="margin-top:8px" aria-label="Monitoring and collaboration skills proficiency"><i style="width:74%"></i></div>
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
-
-    <footer class="reveal">
-      <div style="margin-top:20px;padding:12px;border-radius:10px;border:1px solid rgba(255,255,255,0.02);text-align:center;color:var(--muted)">
-        © 2025 Harshavardhan Nandigama • Portfolio — concise & recruiter-friendly
-      </div>
-    </footer>
+      </section>
+      <!-- PROJECTS -->
+      <section id="projects" class="reveal">
+        <h2 style="text-align:center">Projects</h2>
+        <div class="projects-grid" style="margin-top:16px">
+          <article class="project">
+            <h3>Cloud-Native E-Commerce Platform</h3>
+            <p class="muted">Built a scalable, microservices-based e-commerce platform on AWS with Docker, Kubernetes, and Helm. Automated deployments with Terraform &amp; Ansible, implemented CI/CD (Jenkins, SonarQube, Nexus), and centralized monitoring (Prometheus, Grafana, ELK) to improve uptime and reduce incident resolution.</p>
+            <div style="margin-top:10px">
+              <span class="tag">Terraform</span><span class="tag">AWS</span><span class="tag">CI/CD</span>
+            </div>
+            <div style="margin-top:12px"><a href="https://github.com/harshavardhan-nandigama" target="_blank" rel="noopener noreferrer" class="btn btn-ghost">View on GitHub</a></div>
+          </article>
+          <article class="project">
+            <h3>Expense Tracking Application</h3>
+            <p class="muted">Deployed a 3-tier expense tracker on AWS EC2 (Nginx, Node.js, MySQL), automated provisioning with Bash/systemd, and implemented CI/CD with Git for faster, consistent, and resilient deployments.</p>
+            <div style="margin-top:10px">
+              <span class="tag">Git</span><span class="tag">AWS</span><span class="tag">CI/CD</span>
+            </div>
+            <div style="margin-top:12px"><a href="https://github.com/harshavardhan-nandigama" target="_blank" rel="noopener noreferrer" class="btn btn-ghost">View on GitHub</a></div>
+          </article>
+        </div>
+      </section>
+      <!-- EXPERIENCE & CERTIFICATION -->
+      <section id="experience" class="reveal">
+        <h2 style="text-align:center">Experience &amp; Certification</h2>
+        <div class="grid" style="margin-top:12px">
+          <!-- Experience Card -->
+          <div class="card">
+            <h3>Experience</h3>
+            <div style="margin-top:8px;color:var(--muted)">
+              <div style="margin-bottom:8px">
+                <strong>Premier Energies</strong> — Audit Engineer (GET)  
+                Led audits across 35+ production stages.
+              </div>
+              <div style="margin-bottom:8px">
+                <strong>Goldstone Infratech Pvt Ltd</strong> — IPQC Intern  
+                Reduced defects by 10% through process checks.
+              </div>
+              <div style="margin-top:8px">
+                <em>Additional relevant AWS DevOps internships or projects can be added here.</em>
+              </div>
+            </div>
+          </div>
+          <!-- Certification Card -->
+          <div class="card">
+            <h3>Certifications</h3>
+            <div style="margin-top:8px;color:var(--muted)">
+              <div style="margin-bottom:8px">
+                <strong>Cloud Computing</strong> — Besant Technologies
+              </div>
+              <div style="margin-bottom:8px">
+                <strong>DevOps</strong> — JoinDevOps
+              </div>
+              <div style="margin-top:8px">
+                <em>Add links or badges to certificates if available.</em>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- HIDDEN AI/ML SECTION (future-ready) -->
+      <section id="ai-ml" class="reveal" style="display:none">
+        <h2 style="text-align:center">AI/ML Projects (future)</h2>
+        <div class="projects-grid" style="margin-top:16px">
+          <article class="project">
+            <h3>ML Pipeline — Placeholder</h3>
+            <p class="muted">Template for future ML projects (SageMaker, Kubeflow, deployment &amp; monitoring).</p>
+            <div style="margin-top:10px">
+              <span class="tag">SageMaker</span><span class="tag">Kubeflow</span><span class="tag">MLOps</span>
+            </div>
+          </article>
+        </div>
+      </section>
+      <!-- CONTACT -->
+      <section id="contact" class="reveal">
+        <h2 style="text-align:center">Contact</h2>
+        <div class="contact-grid" style="margin-top:12px">
+          <div class="card contact-card">
+            <h3>Get in touch</h3>
+            <p class="muted">I respond quickly to serious opportunities — email is preferred.</p>
+            <p style="margin-top:10px"><strong>Email</strong><br /><a href="mailto:harshavardhan.gama@gmail.com">harshavardhan.gama@gmail.com</a></p>
+            <p style="margin-top:6px"><strong>LinkedIn</strong><br /><a href="https://www.linkedin.com/in/harshavardhan-nandigama" target="_blank" rel="noopener noreferrer">linkedin.com/in/harshavardhan-nandigama</a></p>
+            <p style="margin-top:6px"><strong>GitHub</strong><br /><a href="https://github.com/harshavardhan-nandigama" target="_blank" rel="noopener noreferrer">github.com/harshavardhan-nandigama</a></p>
+          </div>
+          <div class="card contact-card">
+            <h3>Quick Apply</h3>
+            <p class="muted">Role: DevOps / Linux Engineer<br />Location: Open to Remote / India<br />Notice: Immediate</p>
+          </div>
+        </div>
+      </section>
+      <footer class="reveal">
+        <div style="margin-top:20px;padding:12px;border-radius:10px;border:1px solid rgba(255,255,255,0.02);text-align:center;color:var(--muted)">
+          © 2025 Harshavardhan Nandigama • Portfolio — concise &amp; recruiter-friendly
+        </div>
+      </footer>
+    </main>
   </div>
-
   <!-- RESUME MODAL -->
- <div class="modal-backdrop" id="modalBackdrop" aria-hidden="true">
-  <div class="modal" id="resumeModal" role="dialog" aria-modal="true" aria-labelledby="resumeTitle">
-    <div class="modal-header">
-      <div style="display:flex;gap:10px;align-items:center">
-        <div style="font-weight:700">Resume — Harshavardhan N</div>
-        <div class="muted" style="font-size:13px">Preview</div>
+  <div class="modal-backdrop" id="modalBackdrop" aria-hidden="true">
+    <div class="modal" id="resumeModal" role="dialog" aria-modal="true" aria-labelledby="resumeTitle" tabindex="-1">
+      <div class="modal-header">
+        <div style="display:flex;gap:10px;align-items:center">
+          <div id="resumeTitle" style="font-weight:700">Resume — Harshavardhan N</div>
+          <div class="muted" style="font-size:13px">Preview</div>
+        </div>
+        <div style="display:flex;gap:8px;align-items:center">
+          <a href="assets/Harshavardhan.N_AWS_DevOps.pdf" class="btn btn-primary" download>
+            ⬇ Download
+          </a>
+          <button class="close-btn" id="closeModal" aria-label="Close resume preview">Close ✕</button>
+        </div>
       </div>
-      <div style="display:flex;gap:8px;align-items:center">
-        <a href="assets/Harshavardhan.N_AWS_DevOps.pdf" class="btn btn-primary" download>
-          ⬇ Download
-        </a>
-        <button class="close-btn" id="closeModal">Close ✕</button>
+      <div class="modal-body">
+        <iframe class="pdf-frame" src="assets/Harshavardhan.N_AWS_DevOps.pdf#toolbar=0" title="Resume preview PDF"></iframe>
       </div>
-    </div>
-    <div class="modal-body">
-      <iframe class="pdf-frame" src="assets/Harshavardhan.N_AWS_DevOps.pdf#toolbar=0"></iframe>
     </div>
   </div>
-</div>
-
-
   <!-- SCRIPTS -->
   <script>
     // auto last-updated (visitor local date)
@@ -299,7 +276,7 @@
     }
     window.addEventListener('load', revealAll);
     window.addEventListener('scroll', revealAll);
-
+    
     // modal
     const viewBtn = document.getElementById('viewResumeBtn');
     const modalBackdrop = document.getElementById('modalBackdrop');
@@ -308,16 +285,22 @@
 
     function openModal(){
       modalBackdrop.style.display = 'flex';
-      // minor delay for scale animation
       setTimeout(()=> resumeModal.classList.add('show'), 20);
       document.body.style.overflow = 'hidden';
       modalBackdrop.setAttribute('aria-hidden', 'false');
+      viewBtn.setAttribute('aria-expanded', 'true');
+      resumeModal.focus();
     }
     function hideModal(){
       resumeModal.classList.remove('show');
-      setTimeout(()=>{ modalBackdrop.style.display = 'none'; document.body.style.overflow = ''; modalBackdrop.setAttribute('aria-hidden', 'true'); }, 180);
+      setTimeout(()=>{
+        modalBackdrop.style.display = 'none'; 
+        document.body.style.overflow = ''; 
+        modalBackdrop.setAttribute('aria-hidden', 'true');
+        viewBtn.setAttribute('aria-expanded', 'false');
+        viewBtn.focus();
+      }, 180);
     }
-
     viewBtn.addEventListener('click', openModal);
     closeModal.addEventListener('click', hideModal);
     modalBackdrop.addEventListener('click', (e)=>{ if(e.target === modalBackdrop) hideModal(); });
