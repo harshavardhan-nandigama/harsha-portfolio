@@ -1,1 +1,45 @@
-"D:\Resumes\Harshavardhan.N_AWS_DevOps.pdf"
+Harshavardhan Nandigama 
+8555855487 | harshavardhan.gama@gmail.com | Bengaluru 
+www.linkedin.com/in/harshavardhan-nandigama | GitHub 
+Professional Summary 
+DevOps enthusiast with hands-on project experience in AWS, Linux, Terraform, Docker, and Kubernetes. Skilled in 
+building CI/CD pipelines and automating deployments to improve efficiency and reliability. 
+Technical Skills 
+• Cloud Computing: EC2 | S3 | IAM | VPC | Route 53 | RDS | Dynamodb | EKS | ECS | Lambda | Cloud front | CloudWatch 
+• OS & Scripting: Linux | Bash | Python 
+• DevOps : Docker | Kubernetes | Helm | Argo CD | Terraform | Ansible | Jenkins | Nexus | SonarQube | Veracode 
+• Monitoring & Observability: Prometheus | Grafana | ELK Stack 
+• Collaboration Tools: Jira | ServiceNow |Git 
+• Projects 
+Major Project E-Commerce Application 
+• Architected a scalable 3-tier e-commerce application on AWS using 10+ EC2 instances, ensuring 99.9% availability. 
+• Containerized 10+ microservices with Docker, deployed on Amazon EKS, improving deployment efficiency by 50%. 
+• Automated infrastructure provisioning with 25+ Terraform modules and Ansible playbooks, enabling 50+ 
+consistent, scalable, and fault-tolerant deployments. 
+• Integrated Jenkins CI/CD pipelines with SonarQube, Nexus, and Veracode, reducing release cycle time by 30%, 
+improving code maintainability, and ensuring compliance-driven deployments. 
+• Implemented centralized monitoring with Prometheus, Grafana, and ELK Stack, cutting incident detection and 
+resolution time by 40%, enhancing observability, and supporting real-time alerting. 
+• Optimized Helm charts for Kubernetes clusters, improving production deployment reliability and scalability. 
+• Configured AWS Auto Scaling & Load Balancers to handle traffic spikes, boosting application performance by 25%. 
+• Enforced shift-left with early code quality scans and scripted testing, reducing post-production defects by 20%. 
+Minor Project – Expense Tracking Application 
+• Deployed a 3-tier expense tracker on AWS EC2 using Nginx, Node.js, and MySQL, improving accessibility by 40%. 
+• Orchestrated provisioning with Bash and systemd, reducing manual deployment time by 70% and enabling 
+streamlined, resilient, and fault-tolerant deployments. 
+• Developed Git-based version control system and a CI/CD pipeline, increasing deployment consistency by 60%. 
+Other Professional Experience 
+• Premier Energies Limited – Audit Engineer (GET); Conducted daily audits across 35+ production stages, 
+maintained <1% rejection rate, led 20+ process audits, and executed 5S to enhance quality compliance. 
+• Goldstone Infratech Limited – IPQC Intern; Conducted quality checks at all 3 main production stages, reducing 
+defects by 10% and ensuring process compliance in silicone insulator manufacturing. 
+Certification 
+• Cloud Computing – Besant Technologies: Acquired training in Linux, AWS, programming, and networking. 
+• DevOps – JoinDevOps: Gained hands-on experience in agile practices, CI/CD pipelines (GitHub Actions, Jenkins), 
+Infrastructure as Code (IaC), containerization, deployment orchestration, and workflow automation. 
+Education 
+• Bachelor of Technology (B.Tech) in Electrical and Electronics Engineering 
+Narasaraopeta Engineering College, Guntur, Andhra Pradesh | June 2019 - June 2022 
+Awards and Achievements 
+• Awarded "Best Intern" at APSPDCL for improving process efficiency by 15–20% through impactful contributions. 
+• Secured 2nd place in 7 km District-Level Bicycle Race among 50+ participants. 
